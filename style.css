@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+}
+
+.header {
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.header-left .header-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo { 
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar { 
+    background: #000000;
+    width: 200px;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    flex-shrink: 0;
+}
+
+.content {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 500px;
+    height: 500px;
+
+}
+
+.gridbox {
+    
+}
